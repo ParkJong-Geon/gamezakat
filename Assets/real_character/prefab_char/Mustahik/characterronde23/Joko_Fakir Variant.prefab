@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4363986945214034167
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3060316810661162753}
+  m_Layer: 0
+  m_Name: GroundPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3060316810661162753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4363986945214034167}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.2, y: -12.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6625680166238566057}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &912530899529008238
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4511674570703735685, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_Name
+      value: Joko_Fakir Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1022.15753
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 188.40424
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.17288738
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 3060316810661162753}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4511674570703735685, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1392723863852540797}
+    - targetCorrespondingSourceObject: {fileID: 4511674570703735685, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5859719465596769821}
+    - targetCorrespondingSourceObject: {fileID: 4511674570703735685, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4800468954329815601}
+  m_SourcePrefab: {fileID: 100100000, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+--- !u!1 &3617874957172412395 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4511674570703735685, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+  m_PrefabInstance: {fileID: 912530899529008238}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1392723863852540797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617874957172412395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdcbb51907bd3c24db33ed216b6eb3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  groundPoint: {fileID: 3060316810661162753}
+--- !u!95 &5859719465596769821
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617874957172412395}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bbda4ca627af48e47bbbbc182d7deae7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &4800468954329815601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3617874957172412395}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84878703e1e30c4f94a546f5bceb915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    idNPC: Joko
+    nama: Joko
+    kategoriDiajukan: Fakir
+    deskripsi: Try
+    K01_Bekerja: 0
+    K02_TidakBekerja: 1
+    K03_MampuMemenuhiKebutuhan: 0
+    K04_TidakMampuMemenuhiKebutuhan: 1
+    K05_Berhutang: 0
+    K06_TidakBerhutang: 1
+    K07_HutangMasihLama: 0
+    K08_HutangJatuhTempo: 0
+    K09_HutangUntukMaksiatPemborosan: 0
+    K10_HutangBukanUntukMaksiat: 0
+    K11_Menetap: 1
+    K12_TidakMenetap: 0
+    K13_PerjalananUntukMaksiat: 0
+    K14_PerjalananBukanUntukMaksiat: 0
+--- !u!4 &6625680166238566057 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6294575449527726791, guid: c1d327665da042d43b68b06db27ae32f, type: 3}
+  m_PrefabInstance: {fileID: 912530899529008238}
+  m_PrefabAsset: {fileID: 0}

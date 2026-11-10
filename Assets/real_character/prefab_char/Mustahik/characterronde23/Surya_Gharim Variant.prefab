@@ -1,0 +1,190 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2679753779214575764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4689314595280991110}
+  m_Layer: 0
+  m_Name: GroundPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4689314595280991110
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2679753779214575764}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.047, y: -0.572, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6762907390341434365}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2702072566463307869
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6205391772939498973, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_Name
+      value: Surya_Gharim Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 40
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1017.26733
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 187.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4689314595280991110}
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 6205391772939498973, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6837733173437462069}
+    - targetCorrespondingSourceObject: {fileID: 6205391772939498973, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1751722622258780330}
+    - targetCorrespondingSourceObject: {fileID: 6205391772939498973, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 6795582326661943997}
+  m_SourcePrefab: {fileID: 100100000, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+--- !u!4 &6762907390341434365 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8693386397454035872, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+  m_PrefabInstance: {fileID: 2702072566463307869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &8314289630865200512 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6205391772939498973, guid: 97bfd6133b2d0cb4886d790191c34901, type: 3}
+  m_PrefabInstance: {fileID: 2702072566463307869}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &6837733173437462069
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8314289630865200512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bdcbb51907bd3c24db33ed216b6eb3a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
+  groundPoint: {fileID: 4689314595280991110}
+--- !u!95 &1751722622258780330
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8314289630865200512}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: bbda4ca627af48e47bbbbc182d7deae7, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &6795582326661943997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8314289630865200512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c84878703e1e30c4f94a546f5bceb915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  data:
+    idNPC: Surya
+    nama: Surya
+    kategoriDiajukan: Gharim
+    deskripsi: Try
+    K01_Bekerja: 1
+    K02_TidakBekerja: 0
+    K03_MampuMemenuhiKebutuhan: 1
+    K04_TidakMampuMemenuhiKebutuhan: 0
+    K05_Berhutang: 1
+    K06_TidakBerhutang: 0
+    K07_HutangMasihLama: 1
+    K08_HutangJatuhTempo: 0
+    K09_HutangUntukMaksiatPemborosan: 1
+    K10_HutangBukanUntukMaksiat: 0
+    K11_Menetap: 1
+    K12_TidakMenetap: 0
+    K13_PerjalananUntukMaksiat: 0
+    K14_PerjalananBukanUntukMaksiat: 0

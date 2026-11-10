@@ -87,14 +87,24 @@ public class Scene2FlowManager : MonoBehaviour
         indeksAktif = 0;
         sesiDimulai = true;
 
-        PanggilNPCBerikutnya();
         GameSessionData.ResetData();
-        npcTerpilih.Clear();
+        Debug.Log("=== DATA MUSTAHIK DITERIMA ===");
+
+        foreach (CalonMustahikData data in GameSessionData.mustahikDiterima)
+        {
+            Debug.Log(
+                "Nama: " + data.nama +
+                " | ID: " + data.idNPC
+            );
+        }
+        PanggilNPCBerikutnya();
+    //    npcTerpilih.Clear();
     }
 
     private void PanggilNPCBerikutnya()
     {
-        if (!sesiDimulai) return;
+        if (!sesiDimulai)
+            return;
 
         if (indeksAktif >= npcTerpilih.Count)
         {
@@ -113,6 +123,8 @@ public class Scene2FlowManager : MonoBehaviour
 
         MustahikNPCData npcData = npcTerpilih[indeksAktif];
 
+        Debug.Log("Memunculkan NPC: " + npcData.data.nama);
+
         npcData.gameObject.SetActive(true);
 
         NPCController controller =
@@ -124,10 +136,8 @@ public class Scene2FlowManager : MonoBehaviour
             return;
         }
 
-        // Tempatkan NPC di Spawn Point
         controller.SetGroundPosition(spawnPoint.position);
 
-        // Berjalan dari Spawn -> Area 1 -> Meja
         controller.MoveThroughPoints(
             area1.position,
             servicePoint.position
@@ -155,14 +165,49 @@ public class Scene2FlowManager : MonoBehaviour
         StartCoroutine(ProsesNPCKeluar());
     }
 
+
     private IEnumerator ProsesNPCKeluar()
     {
+        // Pastikan indeks masih berada dalam batas daftar.
+        if (indeksAktif < 0 || indeksAktif >= npcTerpilih.Count)
+        {
+            Debug.LogError(
+                "Indeks NPC tidak valid saat proses keluar. " +
+                "Indeks: " + indeksAktif +
+                ", Jumlah NPC: " + npcTerpilih.Count
+            );
+
+            npcSedangDiproses = false;
+            sesiDimulai = false;
+            yield break;
+        }
+
         MustahikNPCData npcData = npcTerpilih[indeksAktif];
+
+        if (npcData == null)
+        {
+            Debug.LogError("Data NPC aktif kosong.");
+
+            npcSedangDiproses = false;
+            sesiDimulai = false;
+            yield break;
+        }
 
         NPCController controller =
             npcData.GetComponent<NPCController>();
 
-        // Berjalan dari meja -> Exit 1 -> Exit 2
+        if (controller == null)
+        {
+            Debug.LogError(
+                "NPC tidak memiliki NPCController: " + npcData.name
+            );
+
+            npcSedangDiproses = false;
+            sesiDimulai = false;
+            yield break;
+        }
+
+        // Berjalan dari meja -> Exit 1 -> Exit 2.
         controller.MoveThroughPoints(
             exitPoint1.position,
             exitPoint2.position
@@ -178,4 +223,5 @@ public class Scene2FlowManager : MonoBehaviour
 
         PanggilNPCBerikutnya();
     }
+
 }
