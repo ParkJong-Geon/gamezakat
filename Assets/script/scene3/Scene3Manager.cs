@@ -31,7 +31,7 @@ public class Scene3Manager : MonoBehaviour
 
     [Header("Pengaturan Waktu")]
     [SerializeField] private float durasiPerjalanan = 5f;
-    [SerializeField] private float durasiLoading = 1.5f;
+    [SerializeField] private float durasiLoading = 3f;
     [SerializeField] private float durasiPenyerahan = 1f;
 
     [Header("Placeholder Animasi Penyerahan")]

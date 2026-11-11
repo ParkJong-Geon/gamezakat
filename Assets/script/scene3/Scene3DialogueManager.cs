@@ -22,7 +22,7 @@ public class Scene3DialogueManager : MonoBehaviour
     [SerializeField] private Button buttonLanjut;
 
     [Header("Pilihan Bantuan")]
-    [SerializeField] private Button buttonKesehatan;
+    [SerializeField] private Button buttonPendidikan;
     [SerializeField] private Button buttonKeuangan;
     [SerializeField] private Button buttonSembako;
     [SerializeField] private Button buttonAlatKerja;
@@ -50,8 +50,8 @@ public class Scene3DialogueManager : MonoBehaviour
     {
         buttonLanjut.onClick.AddListener(LanjutDialog);
 
-        buttonKesehatan.onClick.AddListener(
-            () => PilihBantuan("Kesehatan"));
+        buttonPendidikan.onClick.AddListener(
+            () => PilihBantuan("Pendidikan"));
 
         buttonKeuangan.onClick.AddListener(
             () => PilihBantuan("Keuangan"));
@@ -131,7 +131,7 @@ public class Scene3DialogueManager : MonoBehaviour
     {
         panelBantuan.SetActive(true);
 
-        buttonKesehatan.gameObject.SetActive(true);
+        buttonPendidikan.gameObject.SetActive(true);
         buttonKeuangan.gameObject.SetActive(true);
         buttonSembako.gameObject.SetActive(true);
         buttonAlatKerja.gameObject.SetActive(true);
